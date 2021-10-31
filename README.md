@@ -5,3 +5,5 @@
 <a href="Lab1/index.html" target="_blank">Project 1</a>
 
 <a href="Lab2/index.html" target="_blank">Project 2</a>
+
+<a href="Lab3/index.html" target="_blank">Project 3</a>
