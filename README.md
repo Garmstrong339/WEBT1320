@@ -9,3 +9,5 @@
 <a href="Lab3/index.html" target="_blank">Project 3</a>
 
 <a href="Lab4/index.html" target="_blank">Project 4</a>
+
+<a href="Final/index.html" target="_blank">Final Project</a>
