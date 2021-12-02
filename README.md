@@ -10,6 +10,6 @@
 
 <a href="Lab4/index.html" target="_blank">Project 4</a>
 
-<<<<<<< HEAD
+<head>
 <a href="Final/index.html" target="_blank">Final Lab</a>
-=======
+</head>
