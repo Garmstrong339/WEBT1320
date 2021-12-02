@@ -1,0 +1,215 @@
+/*global styles*/
+body {
+background: color #f73a36;;
+}
+img{
+display: block;
+max-width: 100%;
+margin: 0 auto;
+
+
+
+
+
+}
+/*mobile styles*/
+
+    header{
+    background-image: url('../images/background.png');
+
+background-size:cover;
+padding: 70px 0;
+}
+header h1{
+color: rgb(255, 0, 0);
+text-shadow: 2px 2px 2px #000000;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+padding: 0px;
+
+
+}
+nav li{
+    display: block;
+}
+
+nav li a{
+display: block;
+background-color: crimson;
+color: black;
+height: 40px;
+line-height: 40px;
+text-align: center;
+text-decoration: none;
+font-size: 1.2em;
+margin: 10px 0;
+border-radius: 10px;
+}
+
+
+nav li a:hover{
+    background-color: darkred;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+
+
+
+nav, section, aside, .col, footer {
+    background-color: rgb(82, 80, 80);
+    padding: 20px;
+margin: 10px;
+border: 4px solid #8d8d8d;
+border-radius: 10px;
+
+}
+
+
+h2,h3{
+color: rgb(216, 164, 85);
+text-shadow: 2px 2px 2px black;
+font-size: 1.5em;
+text-align: center;
+}
+
+section img, aside img {
+width:65%
+
+
+
+
+}
+
+.button{
+display: block;
+background-color: rgb(218, 27, 27, 0.644);
+color: black;
+height: 40px;
+width: 200px;
+line-height: 40px;
+text-align: center;
+text-decoration: none;
+font-size: 1em;
+margin: 10px auto;
+border-radius: 10px;
+
+}
+
+.button:hover{
+
+    background-color: rgb(236, 25, 25);
+    text-shadow: 2px 2px 2px rgb(116, 114, 4);
+
+}
+footer{
+text-align: center;
+color: black;
+}
+.single_col{width:83%}
+
+.gallery_img{
+border: 4px solid crimson;
+border-radius: 10px;
+margin:10px auto;
+}
+
+table{
+    display:none;
+}
+
+/*tablet styles*/
+@media(min-width: 768px){
+
+header {padding:125px}
+
+header h1{font-size:3em ;}
+
+nav{text-align:center}
+
+nav li{display: inline-block}
+
+nav li a{height:50px;
+line-height:50px ;
+width:200px ;
+
+}
+
+#upper_flex{
+    display: flex;
+}
+
+section, aside {
+    width:50%
+}
+
+aside img {
+    width:50%
+}
+.col img{width: 75%;
+border-radius: 10px;
+border:4px solid rgb(253, 203, 0)
+}
+audio,video{
+    display: block;
+    margin:20px auto;
+    width:75%
+}
+section img{
+border: 4px solid #f73a36;  
+}
+}
+
+
+/*desktop styles*/
+@media(min-width:1024px){
+container{
+    width:75%;
+    margin:20px auto;
+border:4px solid cornsilk;
+border-radius: 20px ;
+}
+
+header{border-radius: 20px 20px 0 0;}
+
+nav li a {margin: 0 20px;}
+
+#lower_flex {display:flex;}
+
+.col{width: 100%;}
+
+.col img{width: 100%;}
+
+.single_col {width: 95%;}
+
+
+table, tr, td{
+    border: 4px solid #000000;
+    padding: 10px;
+    margin: 20px;
+}
+All scores according to Rotten Tomatoes
+table img{
+    width: 100%;
+}
+
+
+
+.gallery{
+    display:none;
+}
+
+table{
+    display: block;
+}
+
+
+
+
+
+
+}
