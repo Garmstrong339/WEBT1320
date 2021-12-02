@@ -13,5 +13,3 @@
 <<<<<<< HEAD
 <a href="Final/index.html" target="_blank">Final Lab</a>
 =======
-<a href="Final/index.html" target="_blank">Final Project</a>
->>>>>>> 1b25428fbc5040a0163a9b883e505feed277eaf8
